@@ -28,4 +28,5 @@ test('Locators', async({page})=> {
 
    //locate multiple elements
    const element= await page.$$(locator)
+   
 })
