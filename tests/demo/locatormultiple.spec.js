@@ -19,11 +19,11 @@ test('locatorsmultiple', async({page})=> {
 
    for(const product of products)                          //each and every product in product variable
 
-    {
+   {
 
        const prodName= await product.textContent();     //return text content/text value of product
        console.log(prodName)
 
-    }
+   }
 
 })
