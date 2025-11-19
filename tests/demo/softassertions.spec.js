@@ -16,7 +16,7 @@ await expect.soft(page.locator('.navbar-brand')).toBeVisible()*/
 
 await page.goto('https://demo.nopcommerce.com/register?returnUrl=%2F')
 
-await expect.soft(page).toHaveTitle('nopCommerce demo store. Registersssss');
+await expect.soft(page).toHaveTitle('nopCommerce demo store. Registers');
 const emailInput = await page.locator('#Email')            
 emailInput.fill('test@demo.com')
 await expect.soft(emailInput).toHaveValue('test@demo.com')
