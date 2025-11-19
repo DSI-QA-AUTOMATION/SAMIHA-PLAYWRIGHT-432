@@ -10,4 +10,4 @@ test('Home page' , async({page}) => {
     console.log('page url is:',pageURL);      //capture url from the webpage
     await expect(page).toHaveURL('https://demoblaze.com/') ;   
     await page.close();                          //validation of title to have STORE with expect
-   } )                                            
+   } )                                            //update failed status
