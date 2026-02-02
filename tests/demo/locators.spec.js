@@ -11,7 +11,7 @@ test('Locators', async({page})=> {
     //await page.click('id=login2');
 
     //provide username using css
-    //await page.locator('#loginusername').fill("samiha"); //use # for css id is loginusernaame for username field
+    //await page.lvv bnmnjgdgffdgffvbbbbbb tyt     ocator('#loginusername').fill("samiha"); //use # for css id is loginusernaame for username field
     await page.fill('#loginusername','samiha') //use # for css id is loginusernaame for username field
    //await page.type('#loginusername') //use # for css id is loginusernaame for username field
 
